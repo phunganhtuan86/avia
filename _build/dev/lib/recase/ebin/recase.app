@@ -1,0 +1,10 @@
+{application,recase,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"Convert strings to any case you need."},
+              {modules,['Elixir.Recase','Elixir.Recase.CamelCase',
+                        'Elixir.Recase.ConstantCase','Elixir.Recase.DotCase',
+                        'Elixir.Recase.KebabCase','Elixir.Recase.PascalCase',
+                        'Elixir.Recase.PathCase','Elixir.Recase.Replace',
+                        'Elixir.Recase.SnakeCase']},
+              {registered,[]},
+              {vsn,"0.3.0"}]}.

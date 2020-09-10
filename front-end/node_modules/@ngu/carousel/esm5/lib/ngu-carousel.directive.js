@@ -1,0 +1,102 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+import { Directive, TemplateRef, ViewContainerRef } from '@angular/core';
+var NguCarouselItemDirective = /** @class */ (function () {
+    function NguCarouselItemDirective() {
+    }
+    NguCarouselItemDirective.decorators = [
+        { type: Directive, args: [{
+                    // tslint:disable-next-line:directive-selector
+                    selector: '[NguCarouselItem]'
+                },] },
+    ];
+    return NguCarouselItemDirective;
+}());
+export { NguCarouselItemDirective };
+var NguCarouselNextDirective = /** @class */ (function () {
+    function NguCarouselNextDirective() {
+    }
+    NguCarouselNextDirective.decorators = [
+        { type: Directive, args: [{
+                    // tslint:disable-next-line:directive-selector
+                    selector: '[NguCarouselNext]'
+                },] },
+    ];
+    return NguCarouselNextDirective;
+}());
+export { NguCarouselNextDirective };
+var NguCarouselPrevDirective = /** @class */ (function () {
+    function NguCarouselPrevDirective() {
+    }
+    NguCarouselPrevDirective.decorators = [
+        { type: Directive, args: [{
+                    // tslint:disable-next-line:directive-selector
+                    selector: '[NguCarouselPrev]'
+                },] },
+    ];
+    return NguCarouselPrevDirective;
+}());
+export { NguCarouselPrevDirective };
+var NguCarouselPointDirective = /** @class */ (function () {
+    function NguCarouselPointDirective() {
+    }
+    NguCarouselPointDirective.decorators = [
+        { type: Directive, args: [{
+                    // tslint:disable-next-line:directive-selector
+                    selector: '[NguCarouselPoint]'
+                },] },
+    ];
+    return NguCarouselPointDirective;
+}());
+export { NguCarouselPointDirective };
+/**
+ * @template T
+ */
+var NguCarouselDefDirective = /** @class */ (function () {
+    function NguCarouselDefDirective(template) {
+        this.template = template;
+    }
+    NguCarouselDefDirective.decorators = [
+        { type: Directive, args: [{
+                    // tslint:disable-next-line:directive-selector
+                    selector: '[nguCarouselDef]'
+                },] },
+    ];
+    /** @nocollapse */
+    NguCarouselDefDirective.ctorParameters = function () { return [
+        { type: TemplateRef }
+    ]; };
+    return NguCarouselDefDirective;
+}());
+export { NguCarouselDefDirective };
+if (false) {
+    /** @type {?} */
+    NguCarouselDefDirective.prototype.when;
+    /** @type {?} */
+    NguCarouselDefDirective.prototype.template;
+}
+var NguCarouselOutlet = /** @class */ (function () {
+    function NguCarouselOutlet(viewContainer) {
+        this.viewContainer = viewContainer;
+    }
+    NguCarouselOutlet.decorators = [
+        { type: Directive, args: [{
+                    // tslint:disable-next-line:directive-selector
+                    selector: '[nguCarouselOutlet]'
+                },] },
+    ];
+    /** @nocollapse */
+    NguCarouselOutlet.ctorParameters = function () { return [
+        { type: ViewContainerRef }
+    ]; };
+    return NguCarouselOutlet;
+}());
+export { NguCarouselOutlet };
+if (false) {
+    /** @type {?} */
+    NguCarouselOutlet.prototype.viewContainer;
+}
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibmd1LWNhcm91c2VsLmRpcmVjdGl2ZS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL0BuZ3UvY2Fyb3VzZWwvIiwic291cmNlcyI6WyJsaWIvbmd1LWNhcm91c2VsLmRpcmVjdGl2ZS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7O0FBQUEsT0FBTyxFQUFFLFNBQVMsRUFBRSxXQUFXLEVBQUUsZ0JBQWdCLEVBQUUsTUFBTSxlQUFlLENBQUM7Ozs7O2dCQUV4RSxTQUFTLFNBQUM7O29CQUVULFFBQVEsRUFBRSxtQkFBbUI7aUJBQzlCOzttQ0FMRDs7U0FNYSx3QkFBd0I7Ozs7O2dCQUVwQyxTQUFTLFNBQUM7O29CQUVULFFBQVEsRUFBRSxtQkFBbUI7aUJBQzlCOzttQ0FYRDs7U0FZYSx3QkFBd0I7Ozs7O2dCQVFwQyxTQUFTLFNBQUM7O29CQUVULFFBQVEsRUFBRSxtQkFBbUI7aUJBQzlCOzttQ0F2QkQ7O1NBd0JhLHdCQUF3Qjs7Ozs7Z0JBS3BDLFNBQVMsU0FBQzs7b0JBRVQsUUFBUSxFQUFFLG9CQUFvQjtpQkFDL0I7O29DQWhDRDs7U0FpQ2EseUJBQXlCOzs7OztJQVNwQyxpQ0FBbUIsUUFBMEI7UUFBMUIsYUFBUSxHQUFSLFFBQVEsQ0FBa0I7S0FBSTs7Z0JBUGxELFNBQVMsU0FBQzs7b0JBRVQsUUFBUSxFQUFFLGtCQUFrQjtpQkFDN0I7Ozs7Z0JBdENtQixXQUFXOztrQ0FBL0I7O1NBdUNhLHVCQUF1Qjs7Ozs7Ozs7SUFZbEMsMkJBQW1CLGFBQStCO1FBQS9CLGtCQUFhLEdBQWIsYUFBYSxDQUFrQjtLQUFJOztnQkFOdkQsU0FBUyxTQUFDOztvQkFFVCxRQUFRLEVBQUUscUJBQXFCO2lCQUNoQzs7OztnQkFoRGdDLGdCQUFnQjs7NEJBQWpEOztTQWtEYSxpQkFBaUIiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBEaXJlY3RpdmUsIFRlbXBsYXRlUmVmLCBWaWV3Q29udGFpbmVyUmVmIH0gZnJvbSAnQGFuZ3VsYXIvY29yZSc7XHJcblxyXG5ARGlyZWN0aXZlKHtcclxuICAvLyB0c2xpbnQ6ZGlzYWJsZS1uZXh0LWxpbmU6ZGlyZWN0aXZlLXNlbGVjdG9yXHJcbiAgc2VsZWN0b3I6ICdbTmd1Q2Fyb3VzZWxJdGVtXSdcclxufSlcclxuZXhwb3J0IGNsYXNzIE5ndUNhcm91c2VsSXRlbURpcmVjdGl2ZSB7fVxyXG5cclxuQERpcmVjdGl2ZSh7XHJcbiAgLy8gdHNsaW50OmRpc2FibGUtbmV4dC1saW5lOmRpcmVjdGl2ZS1zZWxlY3RvclxyXG4gIHNlbGVjdG9yOiAnW05ndUNhcm91c2VsTmV4dF0nXHJcbn0pXHJcbmV4cG9ydCBjbGFzcyBOZ3VDYXJvdXNlbE5leHREaXJlY3RpdmUge1xyXG4gIC8vIEBIb3N0QmluZGluZygnZGlzYWJsZWQnKSBkaXNhYmxlZDogYm9vbGVhbjtcclxuICAvLyBASG9zdEJpbmRpbmcoJ3N0eWxlLmRpc3BsYXknKSBkaXNwbGF5ID0gJ2Jsb2NrJztcclxuICAvLyBASG9zdExpc3RlbmVyKCdjbGljaycpXHJcbiAgLy8gb25DbGljaygpIHtcclxuICAvLyB9XHJcbn1cclxuXHJcbkBEaXJlY3RpdmUoe1xyXG4gIC8vIHRzbGludDpkaXNhYmxlLW5leHQtbGluZTpkaXJlY3RpdmUtc2VsZWN0b3JcclxuICBzZWxlY3RvcjogJ1tOZ3VDYXJvdXNlbFByZXZdJ1xyXG59KVxyXG5leHBvcnQgY2xhc3MgTmd1Q2Fyb3VzZWxQcmV2RGlyZWN0aXZlIHtcclxuICAvLyBASG9zdEJpbmRpbmcoJ2Rpc2FibGVkJykgZGlzYWJsZWQ6IGJvb2xlYW47XHJcbiAgLy8gQEhvc3RCaW5kaW5nKCdzdHlsZS5kaXNwbGF5JykgZGlzcGxheSA9ICdibG9jayc7XHJcbn1cclxuXHJcbkBEaXJlY3RpdmUoe1xyXG4gIC8vIHRzbGludDpkaXNhYmxlLW5leHQtbGluZTpkaXJlY3RpdmUtc2VsZWN0b3JcclxuICBzZWxlY3RvcjogJ1tOZ3VDYXJvdXNlbFBvaW50XSdcclxufSlcclxuZXhwb3J0IGNsYXNzIE5ndUNhcm91c2VsUG9pbnREaXJlY3RpdmUge31cclxuXHJcbkBEaXJlY3RpdmUoe1xyXG4gIC8vIHRzbGludDpkaXNhYmxlLW5leHQtbGluZTpkaXJlY3RpdmUtc2VsZWN0b3JcclxuICBzZWxlY3RvcjogJ1tuZ3VDYXJvdXNlbERlZl0nXHJcbn0pXHJcbmV4cG9ydCBjbGFzcyBOZ3VDYXJvdXNlbERlZkRpcmVjdGl2ZTxUPiB7XHJcbiAgd2hlbjogKGluZGV4OiBudW1iZXIsIG5vZGVEYXRhOiBUKSA9PiBib29sZWFuO1xyXG5cclxuICBjb25zdHJ1Y3RvcihwdWJsaWMgdGVtcGxhdGU6IFRlbXBsYXRlUmVmPGFueT4pIHt9XHJcbn1cclxuXHJcbkBEaXJlY3RpdmUoe1xyXG4gIC8vIHRzbGludDpkaXNhYmxlLW5leHQtbGluZTpkaXJlY3RpdmUtc2VsZWN0b3JcclxuICBzZWxlY3RvcjogJ1tuZ3VDYXJvdXNlbE91dGxldF0nXHJcbn0pXHJcbi8vIHRzbGludDpkaXNhYmxlLW5leHQtbGluZTpkaXJlY3RpdmUtY2xhc3Mtc3VmZml4XHJcbmV4cG9ydCBjbGFzcyBOZ3VDYXJvdXNlbE91dGxldCB7XHJcbiAgY29uc3RydWN0b3IocHVibGljIHZpZXdDb250YWluZXI6IFZpZXdDb250YWluZXJSZWYpIHt9XHJcbn1cclxuIl19

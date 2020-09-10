@@ -1,0 +1,12 @@
+{application,credo_contrib,
+             [{applications,[kernel,stdlib,elixir,logger,credo]},
+              {description,"A set of community-maintained checks for the Credo static analysis tool.\nMany of the checks are implementations of rules from\nhttps://github.com/christopheradams/elixir_style_guide.\n"},
+              {modules,['Elixir.CredoContrib.Check.DocWhitespace',
+                        'Elixir.CredoContrib.Check.FunctionBlockSyntax',
+                        'Elixir.CredoContrib.Check.ModuleAlias',
+                        'Elixir.CredoContrib.Check.ModuleDirectivesOrder',
+                        'Elixir.CredoContrib.Check.PublicPrivateFunctionName',
+                        'Elixir.CredoContrib.Check.SingleFunctionPipe',
+                        'Elixir.CredoContrib.Check.Unstable.ModuleFilePath']},
+              {registered,[]},
+              {vsn,"0.1.0"}]}.

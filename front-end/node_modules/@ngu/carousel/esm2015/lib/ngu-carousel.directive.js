@@ -1,0 +1,89 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+import { Directive, TemplateRef, ViewContainerRef } from '@angular/core';
+export class NguCarouselItemDirective {
+}
+NguCarouselItemDirective.decorators = [
+    { type: Directive, args: [{
+                // tslint:disable-next-line:directive-selector
+                selector: '[NguCarouselItem]'
+            },] },
+];
+export class NguCarouselNextDirective {
+}
+NguCarouselNextDirective.decorators = [
+    { type: Directive, args: [{
+                // tslint:disable-next-line:directive-selector
+                selector: '[NguCarouselNext]'
+            },] },
+];
+export class NguCarouselPrevDirective {
+}
+NguCarouselPrevDirective.decorators = [
+    { type: Directive, args: [{
+                // tslint:disable-next-line:directive-selector
+                selector: '[NguCarouselPrev]'
+            },] },
+];
+export class NguCarouselPointDirective {
+}
+NguCarouselPointDirective.decorators = [
+    { type: Directive, args: [{
+                // tslint:disable-next-line:directive-selector
+                selector: '[NguCarouselPoint]'
+            },] },
+];
+/**
+ * @template T
+ */
+export class NguCarouselDefDirective {
+    /**
+     * @param {?} template
+     */
+    constructor(template) {
+        this.template = template;
+    }
+}
+NguCarouselDefDirective.decorators = [
+    { type: Directive, args: [{
+                // tslint:disable-next-line:directive-selector
+                selector: '[nguCarouselDef]'
+            },] },
+];
+/** @nocollapse */
+NguCarouselDefDirective.ctorParameters = () => [
+    { type: TemplateRef }
+];
+if (false) {
+    /** @type {?} */
+    NguCarouselDefDirective.prototype.when;
+    /** @type {?} */
+    NguCarouselDefDirective.prototype.template;
+}
+// tslint:disable-next-line:directive-class-suffix
+export class NguCarouselOutlet {
+    /**
+     * @param {?} viewContainer
+     */
+    constructor(viewContainer) {
+        this.viewContainer = viewContainer;
+    }
+}
+NguCarouselOutlet.decorators = [
+    { type: Directive, args: [{
+                // tslint:disable-next-line:directive-selector
+                selector: '[nguCarouselOutlet]'
+            },] },
+];
+/** @nocollapse */
+NguCarouselOutlet.ctorParameters = () => [
+    { type: ViewContainerRef }
+];
+if (false) {
+    /** @type {?} */
+    NguCarouselOutlet.prototype.viewContainer;
+}
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibmd1LWNhcm91c2VsLmRpcmVjdGl2ZS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL0BuZ3UvY2Fyb3VzZWwvIiwic291cmNlcyI6WyJsaWIvbmd1LWNhcm91c2VsLmRpcmVjdGl2ZS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7O0FBQUEsT0FBTyxFQUFFLFNBQVMsRUFBRSxXQUFXLEVBQUUsZ0JBQWdCLEVBQUUsTUFBTSxlQUFlLENBQUM7QUFNekUsTUFBTTs7O1lBSkwsU0FBUyxTQUFDOztnQkFFVCxRQUFRLEVBQUUsbUJBQW1CO2FBQzlCOztBQU9ELE1BQU07OztZQUpMLFNBQVMsU0FBQzs7Z0JBRVQsUUFBUSxFQUFFLG1CQUFtQjthQUM5Qjs7QUFhRCxNQUFNOzs7WUFKTCxTQUFTLFNBQUM7O2dCQUVULFFBQVEsRUFBRSxtQkFBbUI7YUFDOUI7O0FBVUQsTUFBTTs7O1lBSkwsU0FBUyxTQUFDOztnQkFFVCxRQUFRLEVBQUUsb0JBQW9CO2FBQy9COzs7OztBQU9ELE1BQU07Ozs7SUFHSixZQUFtQixRQUEwQjtRQUExQixhQUFRLEdBQVIsUUFBUSxDQUFrQjtLQUFJOzs7WUFQbEQsU0FBUyxTQUFDOztnQkFFVCxRQUFRLEVBQUUsa0JBQWtCO2FBQzdCOzs7O1lBdENtQixXQUFXOzs7Ozs7OztBQTZDL0I7QUFLQSxNQUFNOzs7O0lBQ0osWUFBbUIsYUFBK0I7UUFBL0Isa0JBQWEsR0FBYixhQUFhLENBQWtCO0tBQUk7OztZQU52RCxTQUFTLFNBQUM7O2dCQUVULFFBQVEsRUFBRSxxQkFBcUI7YUFDaEM7Ozs7WUFoRGdDLGdCQUFnQiIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IERpcmVjdGl2ZSwgVGVtcGxhdGVSZWYsIFZpZXdDb250YWluZXJSZWYgfSBmcm9tICdAYW5ndWxhci9jb3JlJztcclxuXHJcbkBEaXJlY3RpdmUoe1xyXG4gIC8vIHRzbGludDpkaXNhYmxlLW5leHQtbGluZTpkaXJlY3RpdmUtc2VsZWN0b3JcclxuICBzZWxlY3RvcjogJ1tOZ3VDYXJvdXNlbEl0ZW1dJ1xyXG59KVxyXG5leHBvcnQgY2xhc3MgTmd1Q2Fyb3VzZWxJdGVtRGlyZWN0aXZlIHt9XHJcblxyXG5ARGlyZWN0aXZlKHtcclxuICAvLyB0c2xpbnQ6ZGlzYWJsZS1uZXh0LWxpbmU6ZGlyZWN0aXZlLXNlbGVjdG9yXHJcbiAgc2VsZWN0b3I6ICdbTmd1Q2Fyb3VzZWxOZXh0XSdcclxufSlcclxuZXhwb3J0IGNsYXNzIE5ndUNhcm91c2VsTmV4dERpcmVjdGl2ZSB7XHJcbiAgLy8gQEhvc3RCaW5kaW5nKCdkaXNhYmxlZCcpIGRpc2FibGVkOiBib29sZWFuO1xyXG4gIC8vIEBIb3N0QmluZGluZygnc3R5bGUuZGlzcGxheScpIGRpc3BsYXkgPSAnYmxvY2snO1xyXG4gIC8vIEBIb3N0TGlzdGVuZXIoJ2NsaWNrJylcclxuICAvLyBvbkNsaWNrKCkge1xyXG4gIC8vIH1cclxufVxyXG5cclxuQERpcmVjdGl2ZSh7XHJcbiAgLy8gdHNsaW50OmRpc2FibGUtbmV4dC1saW5lOmRpcmVjdGl2ZS1zZWxlY3RvclxyXG4gIHNlbGVjdG9yOiAnW05ndUNhcm91c2VsUHJldl0nXHJcbn0pXHJcbmV4cG9ydCBjbGFzcyBOZ3VDYXJvdXNlbFByZXZEaXJlY3RpdmUge1xyXG4gIC8vIEBIb3N0QmluZGluZygnZGlzYWJsZWQnKSBkaXNhYmxlZDogYm9vbGVhbjtcclxuICAvLyBASG9zdEJpbmRpbmcoJ3N0eWxlLmRpc3BsYXknKSBkaXNwbGF5ID0gJ2Jsb2NrJztcclxufVxyXG5cclxuQERpcmVjdGl2ZSh7XHJcbiAgLy8gdHNsaW50OmRpc2FibGUtbmV4dC1saW5lOmRpcmVjdGl2ZS1zZWxlY3RvclxyXG4gIHNlbGVjdG9yOiAnW05ndUNhcm91c2VsUG9pbnRdJ1xyXG59KVxyXG5leHBvcnQgY2xhc3MgTmd1Q2Fyb3VzZWxQb2ludERpcmVjdGl2ZSB7fVxyXG5cclxuQERpcmVjdGl2ZSh7XHJcbiAgLy8gdHNsaW50OmRpc2FibGUtbmV4dC1saW5lOmRpcmVjdGl2ZS1zZWxlY3RvclxyXG4gIHNlbGVjdG9yOiAnW25ndUNhcm91c2VsRGVmXSdcclxufSlcclxuZXhwb3J0IGNsYXNzIE5ndUNhcm91c2VsRGVmRGlyZWN0aXZlPFQ+IHtcclxuICB3aGVuOiAoaW5kZXg6IG51bWJlciwgbm9kZURhdGE6IFQpID0+IGJvb2xlYW47XHJcblxyXG4gIGNvbnN0cnVjdG9yKHB1YmxpYyB0ZW1wbGF0ZTogVGVtcGxhdGVSZWY8YW55Pikge31cclxufVxyXG5cclxuQERpcmVjdGl2ZSh7XHJcbiAgLy8gdHNsaW50OmRpc2FibGUtbmV4dC1saW5lOmRpcmVjdGl2ZS1zZWxlY3RvclxyXG4gIHNlbGVjdG9yOiAnW25ndUNhcm91c2VsT3V0bGV0XSdcclxufSlcclxuLy8gdHNsaW50OmRpc2FibGUtbmV4dC1saW5lOmRpcmVjdGl2ZS1jbGFzcy1zdWZmaXhcclxuZXhwb3J0IGNsYXNzIE5ndUNhcm91c2VsT3V0bGV0IHtcclxuICBjb25zdHJ1Y3RvcihwdWJsaWMgdmlld0NvbnRhaW5lcjogVmlld0NvbnRhaW5lclJlZikge31cclxufVxyXG4iXX0=

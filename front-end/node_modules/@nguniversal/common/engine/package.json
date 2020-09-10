@@ -1,0 +1,11 @@
+{
+  "name": "@nguniversal/common/engine",
+  "main": "../bundles/common-engine.umd.js",
+  "fesm5": "../fesm5/engine.js",
+  "fesm2015": "../fesm2015/engine.js",
+  "esm5": "../esm5/engine/engine_public_index.js",
+  "esm2015": "../esm2015/engine/engine_public_index.js",
+  "typings": "./engine_public_index.d.ts",
+  "module": "../fesm5/engine.js",
+  "es2015": "../fesm2015/engine.js"
+}

@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NSwag.SwaggerGeneration.WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:NSwag.SwaggerGeneration.WebApi.Infrastructure.RouteAttributeFacade">
+            <summary>
+            Uses reflection to provide a common interface to the following types:
+            * RouteAttribute
+            * IHttpRouteInfoProvider
+            * IRouteTemplateProvider
+            </summary>
+        </member>
+        <member name="T:NSwag.SwaggerGeneration.WebApi.Infrastructure.RoutePrefixAttributeFacade">
+            <summary>
+            Uses reflection to provide a common interface to the following types:
+            * RoutePrefixAttribute
+            * IRoutePrefix
+            </summary>
+        </member>
+        <member name="T:NSwag.SwaggerGeneration.WebApi.Processors.OperationParameterProcessor">
+            <summary>Generates the operation's parameters.</summary>
+        </member>
+        <member name="M:NSwag.SwaggerGeneration.WebApi.Processors.OperationParameterProcessor.#ctor(NSwag.SwaggerGeneration.WebApi.WebApiToSwaggerGeneratorSettings)">
+            <summary>Initializes a new instance of the <see cref="T:NSwag.SwaggerGeneration.WebApi.Processors.OperationParameterProcessor"/> class.</summary>
+            <param name="settings">The settings.</param>
+        </member>
+        <member name="M:NSwag.SwaggerGeneration.WebApi.Processors.OperationParameterProcessor.ProcessAsync(NSwag.SwaggerGeneration.Processors.Contexts.OperationProcessorContext)">
+            <summary>Processes the specified method information.</summary>
+            <param name="context"></param>
+            <returns>true if the operation should be added to the Swagger specification.</returns>
+        </member>
+        <member name="T:NSwag.SwaggerGeneration.WebApi.Processors.OperationResponseProcessor">
+            <summary>Generates the operation's response objects based on reflection and the ResponseTypeAttribute, SwaggerResponseAttribute and ProducesResponseTypeAttribute attributes.</summary>
+        </member>
+        <member name="M:NSwag.SwaggerGeneration.WebApi.Processors.OperationResponseProcessor.#ctor(NSwag.SwaggerGeneration.WebApi.WebApiToSwaggerGeneratorSettings)">
+            <summary>Initializes a new instance of the <see cref="T:NSwag.SwaggerGeneration.WebApi.Processors.OperationParameterProcessor"/> class.</summary>
+            <param name="settings">The settings.</param>
+        </member>
+        <member name="M:NSwag.SwaggerGeneration.WebApi.Processors.OperationResponseProcessor.ProcessAsync(NSwag.SwaggerGeneration.Processors.Contexts.OperationProcessorContext)">
+            <summary>Processes the specified method information.</summary>
+            <param name="context"></param>
+            <returns>true if the operation should be added to the Swagger specification.</returns>
+        </member>
+        <member name="M:NSwag.SwaggerGeneration.WebApi.Processors.OperationResponseProcessor.GetVoidResponseStatusCode">
+            <summary>Gets the response HTTP status code for an empty/void response and the given generator.</summary>
+            <returns>The status code.</returns>
+        </member>
+        <member name="T:NSwag.SwaggerGeneration.WebApi.WebApiToSwaggerGenerator">
+            <summary>Generates a <see cref="T:NSwag.SwaggerDocument"/> object for the given Web API class type. </summary>
+        </member>
+        <member name="M:NSwag.SwaggerGeneration.WebApi.WebApiToSwaggerGenerator.#ctor(NSwag.SwaggerGeneration.WebApi.WebApiToSwaggerGeneratorSettings)">
+            <summary>Initializes a new instance of the <see cref="T:NSwag.SwaggerGeneration.WebApi.WebApiToSwaggerGenerator" /> class.</summary>
+            <param name="settings">The settings.</param>
+        </member>
+        <member name="M:NSwag.SwaggerGeneration.WebApi.WebApiToSwaggerGenerator.#ctor(NSwag.SwaggerGeneration.WebApi.WebApiToSwaggerGeneratorSettings,NSwag.SwaggerGeneration.SwaggerJsonSchemaGenerator)">
+            <summary>Initializes a new instance of the <see cref="T:NSwag.SwaggerGeneration.WebApi.WebApiToSwaggerGenerator" /> class.</summary>
+            <param name="settings">The settings.</param>
+            <param name="schemaGenerator">The schema generator.</param>
+        </member>
+        <member name="M:NSwag.SwaggerGeneration.WebApi.WebApiToSwaggerGenerator.GetControllerClasses(System.Reflection.Assembly)">
+            <summary>Gets all controller class types of the given assembly.</summary>
+            <param name="assembly">The assembly.</param>
+            <returns>The controller classes.</returns>
+        </member>
+        <member name="P:NSwag.SwaggerGeneration.WebApi.WebApiToSwaggerGenerator.Settings">
+            <summary>Gets or sets the generator settings.</summary>
+        </member>
+        <member name="M:NSwag.SwaggerGeneration.WebApi.WebApiToSwaggerGenerator.GenerateForControllerAsync``1">
+            <summary>Generates a Swagger specification for the given controller type.</summary>
+            <typeparam name="TController">The type of the controller.</typeparam>
+            <returns>The <see cref="T:NSwag.SwaggerDocument" />.</returns>
+            <exception cref="T:System.InvalidOperationException">The operation has more than one body parameter.</exception>
+        </member>
+        <member name="M:NSwag.SwaggerGeneration.WebApi.WebApiToSwaggerGenerator.GenerateForControllerAsync(System.Type)">
+            <summary>Generates a Swagger specification for the given controller type.</summary>
+            <param name="controllerType">The type of the controller.</param>
+            <returns>The <see cref="T:NSwag.SwaggerDocument" />.</returns>
+            <exception cref="T:System.InvalidOperationException">The operation has more than one body parameter.</exception>
+        </member>
+        <member name="M:NSwag.SwaggerGeneration.WebApi.WebApiToSwaggerGenerator.GenerateForControllersAsync(System.Collections.Generic.IEnumerable{System.Type})">
+            <summary>Generates a Swagger specification for the given controller types.</summary>
+            <param name="controllerTypes">The types of the controller.</param>
+            <returns>The <see cref="T:NSwag.SwaggerDocument" />.</returns>
+            <exception cref="T:System.InvalidOperationException">The operation has more than one body parameter.</exception>
+        </member>
+        <member name="M:NSwag.SwaggerGeneration.WebApi.WebApiToSwaggerGenerator.GenerateForControllerAsync(NSwag.SwaggerDocument,System.Type,NSwag.SwaggerGeneration.SwaggerGenerator,NSwag.SwaggerSchemaResolver)">
+            <exception cref="T:System.InvalidOperationException">The operation has more than one body parameter.</exception>
+        </member>
+        <member name="T:NSwag.SwaggerGeneration.WebApi.WebApiToSwaggerGeneratorSettings">
+            <summary>Settings for the <see cref="T:NSwag.SwaggerGeneration.WebApi.WebApiToSwaggerGenerator"/>.</summary>
+        </member>
+        <member name="M:NSwag.SwaggerGeneration.WebApi.WebApiToSwaggerGeneratorSettings.#ctor">
+            <summary>Initializes a new instance of the <see cref="T:NSwag.SwaggerGeneration.WebApi.WebApiToSwaggerGeneratorSettings"/> class.</summary>
+        </member>
+        <member name="P:NSwag.SwaggerGeneration.WebApi.WebApiToSwaggerGeneratorSettings.DefaultUrlTemplate">
+            <summary>Gets or sets the default Web API URL template (default for Web API: 'api/{controller}/{id}'; for MVC projects: '{controller}/{action}/{id?}').</summary>
+        </member>
+        <member name="P:NSwag.SwaggerGeneration.WebApi.WebApiToSwaggerGeneratorSettings.IsAspNetCore">
+            <summary>Gets or sets a value indicating whether the controllers are hosted by ASP.NET Core.</summary>
+        </member>
+        <member name="P:NSwag.SwaggerGeneration.WebApi.WebApiToSwaggerGeneratorSettings.AddMissingPathParameters">
+            <summary>Gets or sets a value indicating whether to add path parameters which are missing in the action method.</summary>
+        </member>
+    </members>
+</doc>

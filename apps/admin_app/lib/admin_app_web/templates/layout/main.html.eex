@@ -1,0 +1,10 @@
+<main role="main" class="row mx-0">
+  <%= if Guardian.Plug.authenticated?(@conn) do %>
+    <div class="sidebar">
+      <%= render "sidebar.html", conn: @conn %>
+    </div>
+  <% end %>
+  <div class="main" >
+    <%= Map.get(assigns, :inner_layout) || render @view_module, @view_template, assigns %>
+  </div>
+</main>
